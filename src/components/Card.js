@@ -3,13 +3,13 @@ import { View } from 'react-native';
 
 const Card = (props) => {
   return (
-    <View style={styles.containerStyle}>
+    <View style={style.containerStyle}>
       {props.children}
     </View>  
   );
 };
 
-const styles = {
+const style = {
   containerStyle: {
     borderWidth: 1,
     borderRadius: 2,
